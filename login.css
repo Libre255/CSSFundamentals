@@ -84,6 +84,7 @@ main > h1{
     background-color: aquamarine;
     width: 40%;
     text-align: center;
+    text-transform: uppercase;
 }
 
 main > form {
@@ -92,8 +93,8 @@ main > form {
     background-color: aquamarine;
     height: 10vw;
     display: grid;
-    grid-template-columns: 1fr 1f;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
     padding:3vw;
 }
 main > form > input{
